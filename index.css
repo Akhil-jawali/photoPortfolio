@@ -1,0 +1,118 @@
+:root {
+    --main: rgba(255, 214, 0, 1);
+    --grace: Covered By Your Grace;
+    --inter: Inter;
+    --white: white;
+}
+
+.bg-main {
+    background: var(--main);
+}
+
+.grace {
+    font-family: var(--grace);
+}
+
+.inter {
+    font-family: var(--inter);
+}
+
+.text-yellow {
+    color: var(--main);
+}
+
+.text-big {
+    font-size: 4rem;
+}
+
+#heroImg {
+    z-index: 1;
+}
+
+.totalHeroSection {
+    height: 100vh
+}
+
+.bg-lighter {
+    background: rgba(255, 255, 255, 0.397);
+}
+
+.heroPosition {
+    z-index: 99;
+    position: absolute;
+    top: 0px;
+}
+
+.heroContent {
+    z-index: 9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.testImg {
+    width: 100%;
+}
+
+.workHover:hover {
+    background: var(--main) !important;
+}
+
+.activeWork {
+    background: var(--main) !important;
+}
+
+.bg-work {
+    background: var(--white);
+}
+
+.selectMode {
+    background: rgba(241, 241, 241, 0.904);
+}
+
+.bg-img {
+    background-image: url(images/hero-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footerHover:hover {
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.facebook:hover {
+    color: #1877F2 !important;
+}
+
+.twitter:hover {
+    color: #1DA1F2 !important;
+}
+
+.youtube:hover {
+    color: #FF0000 !important;
+}
+
+@media only screen and (max-width: 720px) {
+    .text-big {
+        font-size: 1.6rem;
+    }
+
+    .bg-lighter {
+        background: white;
+    }
+
+    .totalHeroSection {
+        height: 60vh
+    }
+
+    .testImg {
+        width: 60%;
+    }
+
+    .selectMode {
+        background: white;
+    }
+}

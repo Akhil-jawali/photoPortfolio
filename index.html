@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CameraWala</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Inter:wght@100..900&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/6c2754f92f.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="position-relative">
+            <div id="heroImg" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="hero-2.jpg" class="w-100 totalHeroSection" alt="images/trip.webp">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="hero-1.png" class="w-100 totalHeroSection" alt="images/trip.webp">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="trip.jpg" class="w-100 totalHeroSection">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#heroImg" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#heroImg" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- ########################## position div ########################## -->
+            <div class="w-100 d-flex align-items-center justify-content-center heroPosition bg-lighter">
+                <!-- ########################## Navbar ########################## -->
+                <nav class="navbar navbar-expand-lg w-100 ">
+                    <div class="container-fluid d-flex justify-content-between align-items-md-center align-items-start">
+                        <div class="">
+                            <a class="navbar-brand" href="#"><img src="images.png" width="45px"></a>
+                        </div>
+
+                        <div class="d-flex flex-column">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon border-0"></span>
+                            </button>
+                            <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item d-flex justify-content-end">
+                                        <a href="#about"
+                                            class="px-4 py-2 rounded-pill fw-semibold workHover text-dark text-decoration-none">About
+                                            Me</a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end">
+                                        <a href="#work"
+                                            class="px-4 py-2 rounded-pill fw-semibold workHover text-dark text-decoration-none">Work</a>
+                                    <li class="nav-item d-flex justify-content-end"><a href="#testimonial"
+                                            class="px-4 py-2 rounded-pill fw-semibold workHover text-dark text-decoration-none">Testimonials</a>
+                                    </li>
+                                    <li class="nav-item d-flex justify-content-end">
+                                        <a href="#contact"
+                                            class="px-4 py-2 rounded-pill fw-semibold workHover text-dark text-decoration-none">Contact
+                                            Me</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- ########################## heroContent ########################## -->
+            <div class="heroContent">
+                <div class="d-flex align-items-center justify-content-center">
+                    <p
+                        class="text-big fw-bold inter text-white d-flex flex-column align-items-center justify-content-center">
+                        <span>Photography for</span><span class="grace text-yellow">
+                            adventurous Souls <span class="text-white inter">& </span></span>
+                        <span class="grace text-yellow">Rebels at Heart</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ########################## About Me ########################## -->
+        <section class="container py-4" id="about">
+            <div class="d-flex align-items-center justify-content-center pb-5">
+                <span class="fw-bold fs-2 inter">About Me</span>
+            </div>
+            <div class="row gap-md-0 gap-3 align-items-center justify-content-center">
+                <div class="col-md-3 col-8">
+                    <div class="d-flex flex-column gap-4 align-items-center justify-content-center">
+                        <div id="aboutMe" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner px-3">
+                                <div class="carousel-item active">
+                                    <img src="me-1.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="me-2.png" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="me-3.png" class="d-block w-100">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center gap-3">
+                            <i class="bg-main rounded-circle p-3 fa-solid text-dark fa-arrow-left" type="button"
+                                data-bs-target="#aboutMe" data-bs-slide="prev"></i>
+                            <i class="bg-main rounded-circle p-3 fa-solid text-dark fa-arrow-right" type="button"
+                                data-bs-target="#aboutMe" data-bs-slide="next"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-9 col-12">
+                    <div class="px-md-5 px-3 d-flex flex-column gap-2 align-items-start">
+                        <span class="mb-0 fs-3 fw-bold">Akhil Jawali</span>
+                        <span class="mb-0 fs-5 fw-bold">Date Of Birth : <span class="fw-medium fw-6">
+                                05/12/200</span> </span>
+                        <span class="fs-5 mb-2 fw-bold">Achievement : <span
+                                class="fw-medium fs-6 fst-italic inter fw-6"> China
+                                International Press Photo Contest, Hamdan International Photography Award, National
+                                Photography Awards</span> </span>
+                        <span class="mb-0 fs-6 fs-normal">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit.
+                            Cursus nibh
+                            mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in
+                            turpis.Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit.
+                            Cursus nibh
+                            mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in
+                            turpis.
+                            Lorem ipsum dolor sit amet, consectetur
+                            adipiscing
+                            elit.
+                            Cursus nibh
+                            mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in
+                            turpis.
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div id="scrollBtn"
+            class="p-4 position-fixed bottom-0 d-none end-0 me-5 mb-5 bg-main d-flex justify-content-center rounded-circle align-items-center"
+            role="button" onclick="up()">
+            <i class="fa-solid fa-arrow-up text-dark font-semibold"></i>
+        </div>
+
+        <!-- ########################## My Work ########################## -->
+        <section class="container py-4" id="work">
+            <div class="d-flex align-items-center justify-content-center pb-4">
+                <span class="fw-bold fs-2 inter">Some Of My Work</span>
+            </div>
+
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div
+                    class="d-flex flex-wrap gap-4 px-4 py-2 align-items-center justify-content-center mb-4 selectMode rounded-pill">
+                    <span class="px-4 py-1 bg-work rounded-pill fw-semibold workHover activeWork" id="nature"
+                        onclick="selectedCategory('#nature', '#natureWork')">Nature</span>
+                    <span class="px-4 py-1 bg-work rounded-pill fw-semibold workHover" id="wedding"
+                        onclick="selectedCategory('#wedding', '#weddingWork')">Wedding</span>
+                    <span class="px-4 py-1 bg-work rounded-pill fw-semibold workHover" id="models"
+                        onclick="selectedCategory('#models', '#modelsWork')">Models</span>
+                </div>
+                <div class="">
+                    <div class="d-flex gap-3 displayWork" id="natureWork">
+                        <div class="d-flex flex-column gap-3">
+                            <div class="">
+                                <img src="casestudy-01.jpg.png" class="w-100 h-100">
+                            </div>
+                            <div class="">
+                                <img src="casestudy-02.jpg.png" class="w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="">
+                                <img src="casestudy-02.jpg.png" class="w-100 h-100">
+                            </div>
+                            <div class="">
+                                <img src="casestudy-01.jpg.png" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 displayWork d-none" id="weddingWork">
+                        <div class="d-flex flex-column gap-3">
+                            <div class="">
+                                <img src="casestudy-03.jpg.png" class="w-100 h-100">
+                            </div>
+                            <div class="">
+                                <img src="casestudy-04.jpg.png" class="w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="">
+                                <img src="casestudy-04.jpg.png" class="w-100 h-100">
+                            </div>
+                            <div class="">
+                                <img src="casestudy-03.jpg.png" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 displayWork d-none" id="modelsWork">
+                        <div class="d-flex flex-column gap-3">
+                            <div class="">
+                                <img src="casestudy-05.jpg.png" class="w-100 h-100">
+                            </div>
+                            <div class="">
+                                <img src="casestudy-06.jpg.png" class="w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column gap-3">
+                            <div class="">
+                                <img src="casestudy-06.jpg.png" class="w-100 h-100">
+                            </div>
+                            <div class="">
+                                <img src="casestudy-05.jpg.png" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ########################## statement ########################## -->
+        <section class="bg-img py-5 my-3">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="w-75 d-flex flex-column align-items-end  gap-3 ">
+                    <span class="fs-3 fw-semibold grace text-md-dark text-white">&#34;What do we feel when we look at a
+                        good photograph? We
+                        just want to be there, right at
+                        the exact
+                        moment
+                        that photo taken!&#34;</span>
+                    <span class="fs-4 text-yellow fw-medium grace">&#126; Mehmet Murat Ildan</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ########################## Testimonial ########################## -->
+        <section class="container py-4" id="testimonial">
+            <div class="d-flex align-items-center justify-content-center py-3">
+                <p class="fw-bold fs-2 inter text-center">What My Clients Say About Me</p>
+            </div>
+
+            <div class="d-flex flex-md-row flex-column gap-5 align-items-center justify-content-center">
+                <i class="bg-main d-md-block d-none rounded-circle p-3 fa-solid text-dark fa-arrow-left" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"></i>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center gap-md-0 gap-3 justify-content-center">
+                                <div class="col-md-3 col-12 d-flex align-items-center justify-content-center">
+                                    <img src="test-1.png" class="testImg">
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <div class=" px-md-5 px-2">
+                                        <p class="fs-4 mb-2 fw-semibold">Mithansh</p>
+                                        <p class="fs-5 mb-2 fw-medium">Lorem ipsum </p>
+                                        <p class="fs-6 mb-0 fs-normal">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit.
+                                            Cursus nibh
+                                            mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in
+                                            turpis.
+                                            Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus
+                                            pellentesque
+                                            enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna
+                                            eget nibh in
+                                            turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipiscing
+                                            elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
+                                            magna
+                                            eget nibh
+                                            in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue
+                                            sit
+                                            cursus
+                                            pellentesque enim arcu. Elementum felis magna pretium in tincidunt.
+                                            Suspendisse
+                                            sed magna
+                                            eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row gap-md-0 gap-3 align-items-center justify-content-center">
+                                <div class="col-md-3 col-12 d-flex align-items-center justify-content-center">
+                                    <img src="test-2.png" class="testImg">
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <div class=" px-md-5 px-2">
+                                        <p class="fs-4 mb-2 fw-semibold">Akhil</p>
+                                        <p class="fs-5 mb-2 fw-medium">Lorem ipsum </p>
+                                        <p class="fs-6 mb-0 fs-normal">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit.
+                                            Cursus nibh
+                                            mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in
+                                            turpis.
+                                            Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus
+                                            pellentesque
+                                            enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna
+                                            eget nibh in
+                                            turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipiscing
+                                            elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
+                                            magna
+                                            eget nibh
+                                            in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue
+                                            sit
+                                            cursus
+                                            pellentesque enim arcu. Elementum felis magna pretium in tincidunt.
+                                            Suspendisse
+                                            sed magna
+                                            eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row gap-md-0 gap-3 align-items-center justify-content-center">
+                                <div class="col-md-3 col-12 d-flex align-items-center justify-content-center">
+                                    <img src="test-3.png" class="testImg">
+                                </div>
+                                <div class="col-md-9 col-12">
+                                    <div class=" px-md-5 px-2">
+                                        <p class="fs-4 mb-2 fw-semibold">Avirat</p>
+                                        <p class="fs-5 mb-2 fw-medium">Lorem ipsum </p>
+                                        <p class="fs-6 mb-0 fs-normal">Lorem ipsum dolor sit amet, consectetur
+                                            adipiscing
+                                            elit.
+                                            Cursus nibh
+                                            mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget nibh in
+                                            turpis.
+                                            Consequat duis diam lacus arcu. Faucibus venenatis felis id augue sit cursus
+                                            pellentesque
+                                            enim arcu. Elementum felis magna pretium in tincidunt. Suspendisse sed magna
+                                            eget nibh in
+                                            turpis. Consequat duis diam lacus arcu.Lorem ipsum dolor sit amet,
+                                            consectetur
+                                            adipiscing
+                                            elit. Cursus nibh mauris, nec turpis orci lectus maecenas. Suspendisse sed
+                                            magna
+                                            eget nibh
+                                            in turpis. Consequat duis diam lacus arcu. Faucibus venenatis felis id augue
+                                            sit
+                                            cursus
+                                            pellentesque enim arcu. Elementum felis magna pretium in tincidunt.
+                                            Suspendisse
+                                            sed magna
+                                            eget nibh in turpis. Consequat duis diam lacus arcu.</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <i class="bg-main d-md-block d-none rounded-circle p-3 fa-solid text-dark fa-arrow-right" type="button"
+                    data-bs-target="#carouselExampleIndicators" data-bs-slide="next"></i>
+                <div class="d-flex gap-3 align-items-center justify-content-center">
+                    <i class="bg-main d-md-none d-block rounded-circle p-3 fa-solid text-dark fa-arrow-left"
+                        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev"></i>
+                    <i class="bg-main d-md-none d-block rounded-circle p-3 fa-solid text-dark fa-arrow-right"
+                        type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next"></i>
+                </div>
+            </div>
+        </section>
+
+        <!-- ########################## Contact Me ########################## -->
+        <section class="container py-4 py-5" id="contact">
+            <div class="bg-main rounded">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-7 col-12">
+                        <div class="px-md-5 px-3 pt-md-0 pt-4">
+                            <div class="">
+                                <p class="fw-bold fs-2 inter mb-0">Capture your</p>
+                                <p class="fw-bold fs-2 inter mb-0">Moments with me</p>
+                            </div>
+                            <div class="mt-3">
+                                <p class="fs-6 fw-medium ">Lorem Ipsum is simply dummy text of the
+                                    printing and typesetting
+                                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+                                    1500s,</p>
+                            </div>
+                            <div class="">
+                                <button class="btn bg-light text-dark fs-6 fw-semibold rounded-pill px-4 py-2">Contact
+                                    Me</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-12">
+                        <img src="contactImg.svg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ########################## FOOTER ########################## -->
+        <footer class="bg-dark py-3" id="footer">
+            <div class="container py-md-4 py-0">
+                <div class="border-bottom pb-3 border-secondary">
+                    <div
+                        class="d-flex flex-md-row flex-column gap-md-0 gap-4 align-items-center justify-content-md-between justify-content-center">
+                        <div class="">
+                            <img src="logo.svg">
+                        </div>
+                        <div class="">
+                            <div
+                                class="d-flex flex-md-row flex-column align-items-center justify-content-center gap-md-5 gap-2">
+                                <a href="#aboutMe" class="text-secondary footerHover text-decoration-none">About Me</a>
+                                <a href="#contact" class="text-secondary footerHover text-decoration-none">Contact
+                                    Us</a>
+                                <a href="#testimonial"
+                                    class="text-secondary footerHover text-decoration-none">Testimonial</a>
+                                <a href="#work" class="text-secondary footerHover text-decoration-none">My Works</a>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="d-flex align-items-center justify-content-center gap-3">
+                                <i class="text-secondary fs-4 fa-brands  fa-square-facebook facebook"></i>
+                                <i class="text-secondary fs-4 fa-brands  fa-square-instagram footerHover"></i>
+                                <i class="text-secondary fs-4 fa-brands  fa-twitter twitter"></i>
+                                <i class="text-secondary fs-4 fa-brands  fa-youtube youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="text-center fs-6 text-secondary mb-0">© 1997-2021 Akhil_Jawali</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+
+</html>
